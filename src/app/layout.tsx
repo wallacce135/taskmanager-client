@@ -1,8 +1,11 @@
+// imports and directives
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+// global styles
+// import "@/shared/app/reset.pcss";
+// import "@/shared/app/palette.pcss";
+// import "@/shared/app/typo.pcss";
+// import "@/shared/app/icon.pcss";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body>{children}</body>
     </html>
   );
 }
