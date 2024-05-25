@@ -1,0 +1,29 @@
+$maxColumnsCount: 8;
+$maxGapCount: 6;
+
+.gridFlow {
+  display: grid;
+
+  @for $c from 1 through $maxColumnsCount {
+    &--isColumns-#{$c} {
+      grid-template-columns: repeat(#{$c}, 1fr);
+    }
+  }
+
+  @for $g from 1 through $maxGapCount {
+    &--isGap-#{$g} {
+      gap: #{$g}rem;
+    }
+  }
+
+  &--isWideColumn {
+    grid-area: auto / 1 / auto / -1;
+  }
+
+
+  @media (--mobile) {
+    body {
+      background: black;
+    }
+  }
+}

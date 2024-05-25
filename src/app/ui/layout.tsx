@@ -1,5 +1,7 @@
 // html типа head, мета-тегов и прочего для SEO
-// page рендерится внутри layot как children
+// page рендерится внутри layout как children
+
+import React from 'react';
 
 /** 
  * Корневая разметка для страницы авторизации
@@ -7,6 +9,11 @@
  * @param props.children 
  * @returns JSX.Element
  */
-export default function AuthLayout({ children }) {
+
+interface UIProps {
+    children: React.ReactNode;
+}
+
+export default function UILayout({ children }: UIProps) {
     return children;
 }

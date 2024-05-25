@@ -1,0 +1,13 @@
+html {
+    font-size: 8px;
+    font-family: Gilroy;
+}
+
+body {
+    font-size: 2rem;
+    line-height: 2.2rem;
+}
+
+.bold {
+    font-weight: bold;
+}

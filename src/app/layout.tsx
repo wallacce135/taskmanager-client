@@ -1,11 +1,14 @@
 // imports and directives
 import type { Metadata } from "next";
+import React from "react";
 
 // global styles
-// import "@/shared/app/reset.pcss";
-// import "@/shared/app/palette.pcss";
-// import "@/shared/app/typo.pcss";
-// import "@/shared/app/icon.pcss";
+import "@/shared/app/reset.css";
+import "@/shared/app/adaptive.scss";
+import "@/shared/app/palette.css";
+import "@/shared/app/fonts.css";
+import "@/shared/app/typo.css";
+import "@/shared/app/icon.css";
 
 export const metadata: Metadata = {
   title: "Create Next App",
