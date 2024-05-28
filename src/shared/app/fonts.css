@@ -22,8 +22,8 @@
     font-family: "Gilroy";
     src:
             local("Gilroy"),
-            url("../../../public/fonts/Gilroy-Black.woff") format("woff"),
-            url("../../../public/fonts/Gilroy-Black.eot") format("eot"),
-            url("../../../public/fonts/Gilroy-Black.ttf") format("ttf");
+            url("../../../public/fonts/Gilroy-SemiBold.woff") format("woff"),
+            url("../../../public/fonts/Gilroy-SemiBold.eot") format("eot"),
+            url("../../../public/fonts/Gilroy-SemiBold.ttf") format("ttf");
     font-weight: 700;
 }
